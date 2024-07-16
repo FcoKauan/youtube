@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.topo{
+    width: 98%;
+    padding: 12px 20px;
+}
+
+.topo--left{
+    float: left;
+}
+
+.icone--left{
+    float: left;
+}
+
+.image--left{
+    width: 100%;
+    max-width: 90px;
+    margin-left: 25px;
+    margin-top: -2px;
+    clear: both;
+}
+
+.search--topo{
+    padding: 6px 10px;
+    width: 100%;
+    height: 40px;
+    max-width: 500px;
+    margin-left: 290px;
+    margin-top: -10px;
+    outline-color: #1c4578;   
+    float: left;
+}
+
+.button--search{
+    padding: 7.5px 20px;
+    float: left;
+    margin-top: -10px;
+    color: gray;
+    height: 40px;
+}
+.lupa--search{
+    color: black;
+}
+
+.mic--topo{
+    float: left;
+    margin-left: 25px;
+    margin-top: -1px;
+    color: black;
+    font-size: 20px;
+}
+
+.video--topo{
+    float: left;
+    margin-left: 220px;
+    margin-top: 2px;
+    color: black;
+    font-size: 18px;
+}
+
+.sino--topo{
+    margin-left: 20px;
+    font-size: 22px;
+    color: black;
+}
+
+.login--topo{
+    float: right;
+    margin-left: 400px;
+    margin-top: -37px;
+    padding: 10px 20px;
+    color: blue;
+    border: 1px solid blue;
+    background: white;  
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.user--login{
+    color: blue;
+    font-size: 25px !important;
+    float: left;
+    margin-right: 7px;
+    margin-top: -5px;
+}
+
+.lateral{
+    width: 100%;
+    max-width: 213px;
+    height: 1000px;
+}
+
+.item--lateral--active{
+    width: 190px;
+    padding: 10px;
+    margin-top: 18px;
+    color: black;
+    background: #F1F1F1;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 11px 11px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item--lateral--active:hover{
+    background: #dcdcdcc0;
+}
+
+.icone--lateral--active{
+    color: black;
+    font-size: 18px;
+    float: left;
+    margin-left: 6px;
+    margin-right: 20px;
+}
+
+.item--lateral{
+    width: 190px;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    padding: 11px 11px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item--lateral:hover{
+    background: #F1F1F1;
+}
+
+.icone--lateral{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    float: left;
+    margin-left: 6.5px;
+    margin-right: 19px;
+}
+
+.separator{
+    height: 1px;
+    margin-top: 15px;
+    background: rgba(128, 128, 128, 0.489);
+}
+
+.letreiro--lateral{
+    width: 100%;
+    max-width: 150px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 16px;  
+    margin-bottom: 5px;
+}
+
+.item--lateral--yt{
+    width: 190px;
+    font-size: 14px;
+    padding: 13px 11px;
+    padding-left: 2px;
+    margin-left: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.item--lateral--yt:hover{
+    background: #F1F1F1;
+}
+
+.image--lateral{
+    width: 100%;
+    max-width: 23px;
+    float: left;
+    padding-left:5px;
+    margin-top: -2.5px;
+    margin-left: 6.5px;
+    margin-right: 25px;
+}
+
+.letreiro--permissao{
+    color: rgb(91, 91, 91);
+    font-weight: 500;
+    font-size: 13px;
+    text-align: justify;
+    padding-right: 20px;
+    margin-left: 15px;
+    line-height: 1.4em;
+}
+
+.meio{
+    margin-top: -195vh;
+    width: 1280px;
+    height: 500px;
+    float: right;
+    background: #fff;
+}
+
+.item--meio-active{
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background: black;
+    padding: 7px 12px;
+    border-radius: 8px;
+    margin-left: 45px;
+}
+
+.item--meio{
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    background: #F1F1F1;
+    padding: 7px 12px;
+    border-radius: 8px;
+    margin: 6px;
+    margin-right: 1px;
+}
+
+.area--videos{
+    height: 1000px;
+}
+
+.item--video{
+    width: 100%;
+    max-width: 395px;
+    height: 325px;
+    margin-top: 20px;
+    margin-right: -30px;
+    margin-left: 45px;
+    float: left;
+}
+
+.patrocinio{
+    width: 100%;
+    font-size: 13px;
+    margin-left: 50px;
+}
+
+.icone--video--patrocinio{
+    float: right;
+    margin-top: -20px;
+    margin-right: 15px;
+}
+
+.thumb{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.time{
+    padding: 5px;
+    border-radius: 5px;
+    background: #2E2922;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    float: right;
+    margin-top: 190px;
+    position: absolute;
+    margin-left: -49px;
+}
+
+.icone--canal{
+    border-radius: 50%;
+    width: 100%;
+    max-width: 40px;
+    margin-top: 10px;
+    float: left;
+}
+
+.titulo--video{
+    font-weight: 500;
+    width: 100%;
+    max-width: 320px;
+    margin-top: 12px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.icone--video{
+    float: right;
+    margin-top: -37px;
+    margin-right: 15px;
+}
+
+.nome--canal{
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    float:left;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.nome--canal--line{
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    float:left;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.vizualizacoes--video{
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    float:left;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+
