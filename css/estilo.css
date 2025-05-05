@@ -192,11 +192,12 @@
 }
 
 .meio{
-    margin-top: -195vh;
+    margin-top: -183vh;
     width: 1280px;
     height: 500px;
     float: right;
     background: #fff;
+    cursor: pointer;
 }
 
 .item--meio-active{
