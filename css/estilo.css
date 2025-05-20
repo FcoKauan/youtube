@@ -4,6 +4,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .topo{
     width: 98%;
     padding: 12px 20px;
@@ -11,6 +15,7 @@
 
 .topo--left{
     float: left;
+    cursor: pointer;
 }
 
 .icone--left{
@@ -42,6 +47,7 @@
     margin-top: -10px;
     color: gray;
     height: 40px;
+    cursor: pointer;
 }
 .lupa--search{
     color: black;
@@ -53,6 +59,7 @@
     margin-top: -1px;
     color: black;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .video--topo{
@@ -61,15 +68,18 @@
     margin-top: 2px;
     color: black;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .sino--topo{
     margin-left: 20px;
     font-size: 22px;
     color: black;
+    cursor: pointer;
 }
 
 .login--topo{
+    cursor: pointer;
     float: right;
     margin-left: 400px;
     margin-top: -37px;
@@ -192,12 +202,12 @@
 }
 
 .meio{
-    margin-top: -183vh;
     width: 1280px;
     height: 500px;
     float: right;
     background: #fff;
     cursor: pointer;
+    margin-top: -84.7rem;
 }
 
 .item--meio-active{
